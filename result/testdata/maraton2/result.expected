@@ -1,0 +1,13 @@
+RaceName
+
+StartNr; Namn; Totaltid; Start; Mal
+
+Felaktig resultat lista:
+StartNr; Namn; Totaltid; Start; Mal
+1; A; 00:03:33; 17:10:30; 17:14:04; Omojlig Totaltid? Flera starttider? 17:10:54 Flera maltider? 17:14:41
+2; B; 00:03:42; 17:10:34; 17:14:17; Omojlig Totaltid?
+3; C; --:--:--; 17:10:37; Slut?
+4; D; 00:03:55; 17:10:41; 17:14:36; Omojlig Totaltid?
+5; F; --:--:--; Start?; 17:14:39; Flera maltider? 17:14:45
+
+Resultatgenerering av Team 14 - ...

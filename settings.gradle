@@ -1,0 +1,9 @@
+
+rootProject.name = 'race-clock'
+
+gradle.ext.version = 'final'
+gradle.ext.devName = 'Team14'
+
+include 'register'
+include 'result'
+

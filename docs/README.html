@@ -1,0 +1,115 @@
+<h1 id="race-clock">race-clock</h1>
+<p>
+  This is a program that is intended to be used in a race. There are two
+  different programs meant to be used together.
+</p>
+<h2 id="manual">Manual</h2>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+  <li>Java 17</li>
+</ul>
+<h3 id="file-explanation">File explanation</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Filename</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>race.properties</td>
+      <td>Settings for the program, for example where the files are stored</td>
+    </tr>
+    <tr>
+      <td>README.md</td>
+      <td>This file, which includes instructions for how to use the program</td>
+    </tr>
+    <tr>
+      <td>register-v2.0.jar</td>
+      <td>The GUI used to register start and end times</td>
+    </tr>
+    <tr>
+      <td>result-v2.0.jar</td>
+      <td>
+        The program used to generate the result file, intended to be run in a
+        terminal
+      </td>
+    </tr>
+    <tr>
+      <td>release-info.txt</td>
+      <td>Contains information about the current release (patch notes)</td>
+    </tr>
+    <tr>
+      <td>gui_files/drivers.txt</td>
+      <td>Information about which start number corresponds to which driver</td>
+    </tr>
+    <tr>
+      <td>gui_files/start.txt</td>
+      <td>
+        After using the GUI, this file will be updated with information from it.
+        The GUI also loads this information on startup.
+      </td>
+    </tr>
+    <tr>
+      <td>gui_files/end.txt</td>
+      <td>
+        After using the GUI, this file will be updated with information from it.
+        The GUI also loads this information on startup.
+      </td>
+    </tr>
+    <tr>
+      <td>acceptance_tests</td>
+      <td>This folder contains all our passed acceptance tests</td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="options">Options</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Option-name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>driversPath</td>
+      <td>Defines the path for driver-names</td>
+    </tr>
+    <tr>
+      <td>startTimesPath</td>
+      <td>Defines the path for start times</td>
+    </tr>
+    <tr>
+      <td>endTimePath</td>
+      <td>Defines the path for end times</td>
+    </tr>
+    <tr>
+      <td>driverResultPath</td>
+      <td>Defines the path where the result file is written</td>
+    </tr>
+    <tr>
+      <td>raceName</td>
+      <td>Defines the name of the race</td>
+    </tr>
+    <tr>
+      <td>resultFormat</td>
+      <td>Defines the type of wished sortingmethod</td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="how-to-use">How to use</h3>
+<ol>
+  <li>Start the GUI by running <code>register-v2.0.jar</code></li>
+  <li>
+    Use the buttons <code>Start</code> and <code>Finish</code> to register
+    drivers start and finish times
+  </li>
+  <li>Exit the GUI and open a terminal in the project folder</li>
+  <li>
+    Run the command <code>java -jar result-v2.0.jar</code> to generate the
+    result file
+  </li>
+  <li>Open the result file to see the results</li>
+</ol>

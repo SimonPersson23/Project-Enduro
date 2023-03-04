@@ -1,0 +1,11 @@
+RaceName
+
+StartNr; Namn; Totaltid; Start; Mal
+1; Driver; 01:02:59; 09:13:47; 10:16:46
+
+Felaktig resultat lista:
+StartNr; Namn; Totaltid; Start; Mal
+2; Driver; 00:00:03; 10:17:56; 10:18:00; Omojlig Totaltid?
+3; Driver; 00:00:02; 10:18:29; 10:18:31; Omojlig Totaltid?
+
+Resultatgenerering av Team 14 - ...

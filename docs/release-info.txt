@@ -1,0 +1,57 @@
+
+Release v2.0 of race-clock.
+Date: 2023-02-20
+
+
+New stories in this release:
+ - V1
+ - V2
+ - V3
+ - V5
+ - G2
+ - G11
+ - G1
+ - G4
+ - G5
+ - G6 (implemented only for Marathon and Varvlopp.)
+ - G7
+ - G8 (implemented only for Marathon and Varvlopp.)
+ - G9
+ - G12
+ - G13
+
+
+All stories included:
+ - M3
+ - M5
+ - M6
+ - G3
+ - R1
+ - M1
+ - M2
+ - M4
+ - M5
+ - M6
+ - M7
+ - V1
+ - V2
+ - V3
+ - V5
+ - G2
+ - G11
+ - G1
+ - G4
+ - G5
+ - G6 (implemented only for Marathon and Varvlopp.)
+ - G7
+ - G8 (implemented only for Marathon and Varvlopp.)
+ - G9
+ - G12
+ - G13
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Team14

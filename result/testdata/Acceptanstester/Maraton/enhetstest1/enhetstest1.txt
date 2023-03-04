@@ -1,0 +1,16 @@
+Enhetstest 1 (skisserat - modifera till ert API)
+
+Läs input:
+List<String> allLines = Files.readAllLines("starttider.txt", StandardCharsets.UTF_8);
+
+för varje rad, lägg till förarens tid:
+sorterProgram.putStart(<förarnummer>, <tid>)
+
+repetera för andra input-filer
+
+Kör ert sorteringsprogram:
+String actualResult = SorterProgram.run(...)
+
+Jämför med förväntat resultat:
+String expectedResult = Files.readString("förväntat-resultat.txt", StandardCharsets.UTF_8)
+assertEquals("The files differ!", expectedResult, actualResult);
